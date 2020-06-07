@@ -1,0 +1,1 @@
+﻿Get-Process | where-object {$_.ProcessName -like "*Task*"}
